@@ -9,24 +9,39 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
 </head>
 <body>
-    <header>
+    <header class="bg-[#f1eee7]">
          <nav class=" grid grid-cols-3 container mx-auto p-4">
          <div>
           <img class="max-w-[100px]" src="assets/nav-logo.png" alt="">  
          </div>
-             <ul class="flex gap-4 items-center">
+             <ul class=" hidden md:flex gap-4 items-center">
              <li>Product</li>
              <li>Service</li>
              <li>Contact Us</li>
           </ul>
-         <div class="flex justify-center items-center gap-5">
+         <div class="hidden md:flex justify-center items-center gap-5">
            <i class="fa-solid fa-magnifying-glass"></i>
            <i class="fa-solid fa-cart-shopping"></i>
            <button class=" border border-green-300 rounded-md  px-5 py-1 ">Login</button>
            <button class="bg-green-400 rounded-md px-6 py-1 text-[#FFFFFF]">Register</button>
          </div>
+         <div class="block md:hidden justify-self-end ">
+             <button class="text-3xl p-2 text-green-300"> <i  class="fa-solid fa-bars"></i></button>
+         </div>
+
          </nav>
+
+         
+      <section class="text-center py-[20px]">
+            <div class="max-w-[50%] mx-auto space-y-4 mb-2 ">
+                <h2 class="text-3xl font-medium">Freshness <span class="text-green-400">You Can <br> Count </span>On, Prices You’ll Love!</h2>
+              <p>Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+            </div>
+             <img src="assets/Hero Section-large.png" alt="" class="mx-auto max-w-[830px] h-auto">
+      </section>
          
     </header>
+
+
 </body>
 </html>
